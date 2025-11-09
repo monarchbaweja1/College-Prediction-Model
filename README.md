@@ -1,21 +1,21 @@
 # College-Prediction-Model
 
-Folder Structure
-College_Admission_Prediction/
-│
-├── data/
-│   └── admission_predict.csv         # Place dataset here (or in Drive)
-│
-├── notebooks/
-│   └── College_Admission_Prediction.ipynb
-│
-├── src/
-│   ├── train_model.py
-│   └── __init__.py
-│
-├── results/
-│   └── .gitkeep
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+Folder Structure   <br>
+College_Admission_Prediction/         <br>
+│    <br>
+├── data/    <br> 
+│   └── admission_predict.csv    <br>     
+│         <br>
+├── notebooks/        <br>
+│   └── College_Admission_Prediction.ipynb   <br>
+│       <br>
+├── src/  <br>
+│   ├── train_model.py <br>
+│   └── __init__.py   <br>
+│<br>
+├── results/            <br>
+│   └── .gitkeep          <br>
+│           <br>
+├── requirements.txt         <br>
+├── README.md        <br>
+└── .gitignore           <br>
