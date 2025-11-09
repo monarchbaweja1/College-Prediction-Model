@@ -1,0 +1,12 @@
+# Prediction 1
+# Input in the form : GRE, TOEFL, University Rating, SOP, LOR, CGPA, Research
+print('Chance of getting into UCLA is {}%'.format(round(model.predict([[337, 118, 4, 4.5, 4.5, 9.65, 0]])[0]*100, 3)))
+
+Chance of getting into UCLA is 92.855%
+
+
+# Prediction 2
+# Input in the form : GRE, TOEFL, University Rating, SOP, LOR, CGPA, Research
+print('Chance of getting into UCLA is {}%'.format(round(model.predict([[320, 113, 2, 2.0, 2.5, 8.64, 1]])[0]*100, 3)))
+
+Chance of getting into UCLA is 73.627%
