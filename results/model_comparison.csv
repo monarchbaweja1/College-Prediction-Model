@@ -1,7 +1,0 @@
-model,best_parameters,score,
-0,linear_regression,{},0.810802
-1,lasso,"{'alpha': 1, 'selection': 'random'}",0.215088
-2,svr,{'gamma': 'scale'},0.654099
-3,decision_tree,"{'criterion': 'squared_error', 'splitter': 'be...",0.557452
-4,random_forest,{'n_estimators': 20},0.762519
-5,knn,{'n_neighbors': 20},0.723012
