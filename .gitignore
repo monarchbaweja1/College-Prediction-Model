@@ -1,125 +1,16 @@
-# ----------------------------
-# PYTHON / DATA SCIENCE PROJECT
-# ----------------------------
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Colab temporary files
-*.bak
-*.tmp
-*.log
-*.out
-*.ipynb_convert
-.env
-.venv
-venv/
-ENV/
+.venv/
 env/
-.env.*
-.conda/
-.conda_env/
-*.swp
+venv/
 
-# VS Code / PyCharm / IDE settings
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Data / artifacts
+data/*.csv
+artifacts/*.pkl
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# ----------------------------
-# DATA FILES
-# ----------------------------
-*.csv
-*.xlsx
-*.xls
-*.tsv
-*.json
-*.zip
-*.tar
-*.gz
-*.pkl
-*.sav
-*.h5
-*.hdf5
-*.npy
-*.npz
-
-# ----------------------------
-# OUTPUT / RESULTS
-# ----------------------------
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.pdf
-results/
-logs/
-plots/
-outputs/
-
-# ----------------------------
-# ENVIRONMENT / CONFIG
-# ----------------------------
-*.env
-*.ini
-*.cfg
-*.toml
-
-# ----------------------------
-# Jupyter Notebooks Auto Save
-# ----------------------------
-*/.ipynb_checkpoints/*
